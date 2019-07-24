@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -6,15 +6,15 @@
     </PropertyGroup>
     <PropertyGroup>        
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <PackageId>Docpal</PackageId>
-        <PackageVersion>0.0.1</PackageVersion>
+        <PackageId>netcore-docpal</PackageId>
+        <PackageVersion>0.0.6</PackageVersion>
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>docpal</ToolCommandName>
         <Title>Docpal</Title>
-        <Description></Description>
+        <Description>NET core porting of Docpal utility of Nicholas Fleck</Description>
         <Authors>Nicholas Fleck</Authors>
-        <PackageTags>autogen api markdown csharp</PackageTags>
-        <PackageProjectUrl>https://github.com/TheBerkin/Docpal</PackageProjectUrl>
+        <PackageTags>netcore autogen api markdown csharp</PackageTags>
+        <PackageProjectUrl>https://github.com/SearchAThing-forks/Docpal/tree/dev#docpal</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
     <ItemGroup>

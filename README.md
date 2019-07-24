@@ -1,5 +1,6 @@
 # Docpal
 [![Build status](https://ci.appveyor.com/api/projects/status/dlvs655kyryk0doy?svg=true)](https://ci.appveyor.com/project/TheBerkin/docpal)
+[![NuGet Badge](https://buildstats.info/nuget/netcore-docpal)](https://www.nuget.org/packages/netcore-docpal/)
 
 **Are overcomplicated documentation tools making you headbang a brick wall?**
 
@@ -24,13 +25,13 @@ Boom, you have your docs. *It's that easy!*
 - Install the tool:
 
 ```sh
-dotnet tool install -g docpal
+dotnet tool install -g netcore-docpal
 ```
 
 - To update if already installed:
 
 ```sh
-dotnet tool update -g docpal
+dotnet tool update -g netcore-docpal
 ```
 
 ## What Docpal offers
