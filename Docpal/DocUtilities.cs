@@ -176,7 +176,7 @@ namespace Docpal
 
         public static string GetURLTitle(Type type)
         {
-            if (type.IsGenericType)
+            if (type.IsGenericType && type.Name.Contains("`"))
             {
                 return $"{type.Name.Substring(0, type.Name.IndexOf("`"))}-{type.GetGenericArguments().Length}";
             }
@@ -563,8 +563,8 @@ namespace Docpal
                 sb.Append(primitiveName);
             }
             // e.g. Dictionary<string, int>
-            else if (bareType.IsGenericType)
-            {
+            else if (bareType.IsGenericType && bareType.Name.Contains("`"))
+            {                
                 if (includeNamespace && !string.IsNullOrEmpty(bareType.Namespace))
                 {
                     sb.Append($"{bareType.Namespace}.");
